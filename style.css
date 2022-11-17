@@ -1,0 +1,24 @@
+img {
+    width: 500px;
+    height: auto;
+}
+
+header {
+    text-align: center;
+    display: flex;
+}
+
+@media (max-width: 576px) {
+    img {
+        display: flex;
+        width: 250px;
+        height: auto;
+    }
+}
+
+.email {
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    height: 100px;
+}
